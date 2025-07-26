@@ -111,9 +111,11 @@ pytest test_shoppinglist_api.py
 ## Configuration
 
 * MongoDB connection details can be set via environment variables: `mongodb_uri`, `mongodb_db`.
+* If you want the database, please give a star and fork and then email me or comment.
 
 ## Deploy online
 
 * Integrate Docker and GitHub Actions for CI/CD.
 * Add front-end dashboard for live recommendation visualization.
+* This project is just backend, if you want some guidence on course project, devops or automation test, you can email me. 
 * <img width="227" height="524" alt="image" src="https://github.com/user-attachments/assets/78633f0c-331d-4ff2-8644-459c52a18910" />
