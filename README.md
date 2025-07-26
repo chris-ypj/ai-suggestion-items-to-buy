@@ -117,5 +117,5 @@ pytest test_shoppinglist_api.py
 
 * Integrate Docker and GitHub Actions for CI/CD.
 * Add front-end dashboard for live recommendation visualization.
-* This project is just backend, the frontend is in a private project. If you want some guidence on course project, devops or automation test, you can email me. 
+* This project is just backend, the frontend is in a private project. If you want some guidence on course project, devops or automation test, you can email me(seniorfullstack8@gmail.com). 
 * <img width="227" height="524" alt="image" src="https://github.com/user-attachments/assets/78633f0c-331d-4ff2-8644-459c52a18910" />
