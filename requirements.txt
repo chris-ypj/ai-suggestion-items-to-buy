@@ -1,0 +1,17 @@
+pymongo
+fastapi
+uvicorn
+pymongo
+scikit-learn
+pandas
+numpy
+pydantic
+pydantic-settings
+gunicorn
+uvloop
+inflect
+pytest
+pytest-asyncio
+requests
+
+

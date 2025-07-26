@@ -1,0 +1,31 @@
+"/Users/c/Documents/class book ppt/732/project/group-project-outstanding-programmer/aisuggestion/.venv/bin/python" /Applications/PyCharm.app/Contents/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py --path /Users/c/Documents/class book ppt/732/project/group-project-outstanding-programmer/aisuggestion/testapi/test_shoppinglist_api.py 
+Testing started at 8:33 pm ...
+Launching pytest with arguments /Users/c/Documents/class book ppt/732/project/group-project-outstanding-programmer/aisuggestion/testapi/test_shoppinglist_api.py --no-header --no-summary -q in /Users/c/Documents/class book ppt/732/project/group-project-outstanding-programmer/aisuggestion/testapi
+
+============================= test session starts ==============================
+collecting ... collected 20 items
+
+test_shoppinglist_api.py::test_add_ai_predict_to_trolley_success[payload0-200-message_contains0] 
+test_shoppinglist_api.py::test_add_ai_predict_to_trolley[payload0-403-fail] PASSED
+test_shoppinglist_api.py::test_add_ai_predict_to_trolley[payload1-403-fail] 
+test_shoppinglist_api.py::test_update_item_status[payload0-200-403-None] PASSEDPASSED
+test_shoppinglist_api.py::test_update_item_status[payload1-200-403-None] 
+test_shoppinglist_api.py::test_update_item_status[payload2-200-403-None] 
+test_shoppinglist_api.py::test_update_item_status[payload3-200-200-True] 
+test_shoppinglist_api.py::test_update_item_status[payload4-200-400-None] 
+test_shoppinglist_api.py::test_get_shopping_list[params0-403-403-User and token mismatch] PASSEDPASSEDPASSEDPASSEDPASSED
+test_shoppinglist_api.py::test_get_shopping_list[params1-403-403-User and token mismatch] 
+test_shoppinglist_api.py::test_get_shopping_list[params2-200-200-None] 
+test_shoppinglist_api.py::test_add_item_to_trolley[payload0-403-403-expect_keys0] PASSEDPASSEDPASSED
+test_shoppinglist_api.py::test_add_item_to_trolley[payload1-200-200-expect_keys1] 
+test_shoppinglist_api.py::test_remove_deleted_item_from_trolley[payload0-200-200-expected_keys0] PASSEDPASSED
+test_shoppinglist_api.py::test_remove_deleted_item_from_trolley[payload1-200-400-expected_keys1] 
+test_shoppinglist_api.py::test_remove_item_from_trolley[payload0-403-403-User and token mismatch] PASSEDPASSED
+test_shoppinglist_api.py::test_remove_item_from_trolley[payload1-200-400-None] 
+test_shoppinglist_api.py::test_done_shopping_list[payload0-403-403-fail] PASSEDPASSED
+test_shoppinglist_api.py::test_done_shopping_list[payload1-403-403-fail] 
+test_shoppinglist_api.py::test_done_shopping_list[payload2-200-200-success] 
+
+======================== 20 passed in 87.12s (0:01:27) =========================
+PASSEDPASSEDPASSED
+Process finished with exit code 0
