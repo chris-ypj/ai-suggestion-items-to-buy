@@ -8,7 +8,6 @@ This repository implements a complete pipeline for an AI-driven shopping list se
 1. **Synthetic Data Generation**: Tools to generate realistic historical receipts (`generatereceipt.py`) and corresponding item usage records (`generateitems.py`).
 2. **Model Training**: A script (`training.py`) that trains both regression and classification Random Forest models to predict consumption durations and reorder flags.
 3. **API Service**: A FastAPI router (`airouter.py`) exposing endpoints for data simulation, model prediction, and recommendation.
-4. **Automated Testing**: A PyTest suite (`test_shoppinglist_api.py`) covering all `/shopping` endpoints and the `/predictandrecommend` workflow.
 
 ## Repository Structure
 
@@ -17,9 +16,9 @@ This repository implements a complete pipeline for an AI-driven shopping list se
 ├── generateitems.py       # Item simulation tool
 ├── training.py            # Model training script
 ├── airouter.py            # FastAPI router for data and prediction
-├── test_shoppinglist_api.py  # PyTest suite for endpoints
 ├── start.sh                # start server locally
 ├── requirement.txt        # dependencies
+├── dockerfile             # you can use this to create docker image
 └── README.md              # This documentation file
 ```
 
