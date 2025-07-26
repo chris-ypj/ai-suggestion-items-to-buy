@@ -18,6 +18,7 @@ This repository implements a complete pipeline for an AI-driven shopping list se
 ├── airouter.py            # FastAPI router for data and prediction
 ├── start.sh                # start server locally
 ├── requirement.txt        # dependencies
+├── deploy-aisuggestion.sh  #you can use this file to deploy automatically with docker and any platform
 ├── dockerfile             # you can use this to create docker image
 └── README.md              # This documentation file
 ```
