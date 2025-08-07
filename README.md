@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository implements a complete pipeline for an AI-driven shopping list service for items management on course compsci 732, if you want the database design, please mark a star, and then send me an email:
+This repository implements a complete pipeline for an AI-driven shopping list service for items management on course compsci 732, if you need the database design, please send me an email:
 
 1. **Synthetic Data Generation**: Tools to generate realistic historical receipts (`generatereceipt.py`) and corresponding item usage records (`generateitems.py`).
 2. **Model Training**: A script (`training.py`) that trains both regression and classification Random Forest models to predict consumption durations and reorder flags.
