@@ -1,0 +1,24 @@
+#!/bin/sh
+# author : chris-jyp
+# pre-push hook: Check if the current branch contains the latest commits from multiple remote branches
+
+# Define the remote name and the list of branches (space-separated) to be checked
+REMOTE="origin"
+BRANCHES="main release/0.5.0"  # branches to check
+
+# check every branch
+for BRANCH in $BRANCHES; do
+    echo "Fetching the latest update from ${REMOTE}/${BRANCH}..."
+    git fetch $REMOTE $BRANCH
+
+    # Check if the latest commit of the remote branch is an ancestor of the current branch
+    if git merge-base --is-ancestor "${REMOTE}/${BRANCH}" HEAD; then
+        echo "The current branch has merged the latest update from ${REMOTE}/${BRANCH}."
+    else
+        echo "ERROR: The current branch has not merged the latest update from ${REMOTE}/${BRANCH}!"
+        echo "Please merge or rebase ${REMOTE}/${BRANCH} before pushing."
+        exit 1
+    fi
+done
+
+exit 0
